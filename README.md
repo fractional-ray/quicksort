@@ -1,9 +1,10 @@
+### Introduction
 This program will run the quick sort algorithm in c. The three datatypes that have been tested are int, floats and doubles.
 Ints - Are values 0<= ints < 20 - I did this for readablilty of the output
 Floats - Are values 0.0 < floats < 1 - I did this for readability of the output
 Doubles - Are just random values of doubles.
 
-
+### Build
 To build and run this program you will need to run the following commands:
 
 1: make - build the program 
@@ -14,6 +15,7 @@ or
 
 Testing will be in two parts. Part one will assume that I have qsort to test my implementation against. The second part will assume that I do not have quick sort so I have tested the order and the summation to make sure that I did not currupt my array after quicksort.
 
+### Testing
 Testing functions will return a bool of false if the test does not hold. Assume true until proven guilty.
 
 The test.sh shell script will run both parts of the test for ints and floats. The first part I make random arrays of different sizes. I test for order and against qsort: 
@@ -38,7 +40,7 @@ The shell script test.sh will run part 1 and part 2 of the tests, use command:
 1: make
 2: sh test.sh
 
-
+### NOTES
 Notes on the files:
 	data_type.h - This will create a random array of a given datatype.
 	quicksort.h - This is the implemenation of quicksort
@@ -49,4 +51,5 @@ Notes on the files:
 	test.sh - This is a shell script of the test that will run both parts of the test
 	Makefile - This will build the program
 
-
+### Contribute
+If you see a better solution please fork and then request a pull request. 
