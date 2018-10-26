@@ -10,8 +10,9 @@ To build and run this program you will need to run the following commands:
 
 1. make - build the program 
 2. sh run.sh - This will only run a double and int once (SMALL VALUES OF N)
-or 
-3. ./qsort <number of elements> <int,floats or doubles>
+or
+
+3. ./qsort n <int,floats or doubles> Where n is the number of elements
 
 
 Testing will be in two parts. Part one will assume that I have qsort to test my implementation against. The second part will assume that I do not have quick sort so I have tested the order and the summation to make sure that I did not currupt my array after quicksort.
