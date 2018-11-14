@@ -40,7 +40,7 @@ static void swap(void *a, void * b, size_t size_of){
 	memcpy(tmp,a,size_of);
 	memcpy(a,b,size_of);
 	memcpy(b,tmp,size_of);
-
+	free(tmp);
 }
 
 
